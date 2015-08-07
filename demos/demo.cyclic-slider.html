@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Cyclic - Slider</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../src/jquery.cyclic-slider.js"></script>
+</head>
+<body>
+
+<div class="cyclic-content">
+    <div>Vestibulum purus quam scelerisque ut</div>
+    <div>Pellentesque commodo eros a enim</div>
+    <div>Cras ultricies mi eu turpis</div>
+    <div>Sed augue ipsum egestas nec</div>
+    <div>Donec interdum metus et hendrerit</div>
+    <div>In enim justo rhoncus ut</div>
+</div>
+
+<script>
+    $(function() {
+        $(".cyclic-content").cyclicContent({gap: '50px'});
+    });
+</script>
+</body>
+</html>
